@@ -1,5 +1,6 @@
 package com.learn.telecommandeuniversel.models
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.hardware.ConsumerIrManager
 
@@ -11,6 +12,7 @@ data class TeleConfig(
     val frequency: Int
 )
 
+@SuppressLint("StaticFieldLeak")
 object TelecommandeConfigManager {
     private lateinit var context: Context
 

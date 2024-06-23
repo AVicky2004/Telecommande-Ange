@@ -36,7 +36,7 @@ fun MyPowerButton() {
     ) {
         if (isClicked) {
             Icon(
-                Icons.Sharp.Close,
+                Icons.Sharp.Close
                 contentDescription = "Stop",
                 modifier = Modifier
                     .size(100.dp)
